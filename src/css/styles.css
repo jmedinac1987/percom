@@ -1,0 +1,45 @@
+#body-services{
+    background-color:#d2dae2;
+}
+.infoRedesSociales{
+    color: black;
+    padding: 20px;
+}
+
+.infoContentRedesSociales{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.infoContentRedesSociales .block{
+    padding: 8px;
+    width: 100%;
+}
+
+.infoContentRedesSociales .block .icon-social{
+    font-size: 70px;
+}
+
+#infoAditionalQuienesSomos {
+    background: #f1f1f1;
+    padding: 50px 0 30px 0;
+    text-align:center;
+    margin-top: 40px;
+}
+
+#logo{  
+    color: #0be881;
+    font-family: 'Shrikhand', cursive;
+    cursor: pointer;
+}
+
+#logo_2{      
+    font-family: 'Shrikhand', cursive;
+    cursor: pointer;
+}
+
+#quienesSomos{
+    padding-top: 50px;
+}  
