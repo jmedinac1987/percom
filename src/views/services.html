@@ -21,6 +21,7 @@
     <title>PerCom</title>
 </head>
 <body id="body-services">
+
     <!--Navigation-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <a href="../../index.html" class="navbar-brand" id="hjConsultoresNav"><label id="logo">Per</label><label id="logo_2">Com</label></a>
@@ -41,98 +42,102 @@
 
     
     <section id="serviciosChild">
-        <div class="container mt-5">
-            <a href="#"><img src="../img/ms-icon-150x150.png" alt="percom"></a>            
-                <div class="row">
-                    <div class="col-md-6">
-                        <h2 class="display-4">Servicios en Networking</h2>  
-                        <p class="mt-5">Nuestros servicios de Networking consta de las siguientes secciones: Diagnóstico, Configuración, Consultoría y Mantenimiento.</p>                     
-                        <p>Para ver el contenido de cada sección presione la sección correspondiente.</p>                     
-                        <ul class="nav nav-tabs" id="myTab" role="tablist">
-                            <li class="nav-item">
-                                <a class="nav-link active" id="diadnostico-tab" data-toggle="tab" href="#diadnostico" role="tab" aria-controls="diadnostico" aria-selected="true">Diagnóstico</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="configuracion-tab" data-toggle="tab" href="#configuracion" role="tab" aria-controls="configuracion" aria-selected="false">Configuración</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="consultoria-tab" data-toggle="tab" href="#consultoria" role="tab" aria-controls="consultoria" aria-selected="false">Consultoría</a>
-                            </li>
-                            <li class="nav-item">
-                                    <a class="nav-link" id="mantenimiento-tab" data-toggle="tab" href="#mantenimiento" role="tab" aria-controls="mantenimiento" aria-selected="false">Mantenimiento</a>
-                            </li>
-                        </ul>
-                        <div class="tab-content mt-3" id="myTabContent">
-                            <div class="tab-pane fade show active" id="diadnostico" role="tabpanel" aria-labelledby="diadnostico-tab">
-                                    <ul>
-                                        <li>Se realizará un análisis actual de los diseños LAN y/o WLAN.</li> 
-                                        <li>Se presentará un informe indicando: </li>
-                                            <li class="nav nav-item  ml-3 my-1">- Estado de la red actual. </li> 
-                                            <li class="nav nav-item  ml-3 my-1">- Esquema de red actual con enlaces, puertos principales de conexión y direccionamiento. </li> 
-                                            <li class="nav nav-item  ml-3 my-1">- Estado físico de los dispositivos actuales, indicando tiempos de caducidad de garantía y de reemplazo de los mismos.</li>
-                                            <li class="nav nav-item  ml-3 my-1">- Propuesta de mejora en el diseño LAN/WAN.</li>
-                                            <li class="nav nav-item  ml-3 my-1">- Propuesta de mejora en la seguridad de los equipos.</li>
-                                            <li class="nav nav-item  ml-3 my-1">- Cronograma de mantenimientos que se debería tener en cuenta.</li>
-                                        <li>Propuesta de valor en al cual se indique:</li>
-                                            <li class="nav nav-item  ml-3 my-1">- Costo de las mejoras a implementar.</li>
-                                            <li class="nav nav-item  ml-3 my-1">- Cronograma de tiempos y actividades para el proyecto solicitado.</li>
-                                        <li>Presentación de documentación final posterior a la finalización del proyecto.</li>
-                                            <li class="nav nav-item  ml-3 my-1">- Esquema de la final con enlaces, puertos principales de conexión y direccionamiento.</li>
-                                            <li class="nav nav-item  ml-3 my-1">- Informe de mejoras implementadas.</li>
-                                            <li class="nav nav-item  ml-3 my-1">- Cronograma de mantenimientos. </li>                                    
-                                    </ul>
-                            </div>
-                            <div class="tab-pane fade" id="configuracion" role="tabpanel" aria-labelledby="configuracion-tab">
-                                    <li> Configuración de herramientas de monitoreo de los servicios e infraestructura instalada.</li>
-                                    <li> Configuración e implementación de hardware y software.</li>                                    
+        <div class="container-fluid mt-5">
+            <a href="#"><img src="../img/ms-icon-150x150.png" alt="percom"></a>                            
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="display-4">Servicios en Networking</h2>                          
+                            <ul class="nav nav-tabs mt-5" id="myTab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="diadnostico-tab" data-toggle="tab" href="#diadnostico" role="tab" aria-controls="diadnostico" aria-selected="true">Diagnóstico</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="configuracion-tab" data-toggle="tab" href="#configuracion" role="tab" aria-controls="configuracion" aria-selected="false">Configuración</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="consultoria-tab" data-toggle="tab" href="#consultoria" role="tab" aria-controls="consultoria" aria-selected="false">Consultoría</a>
+                                </li>
+                                <li class="nav-item">
+                                        <a class="nav-link" id="mantenimiento-tab" data-toggle="tab" href="#mantenimiento" role="tab" aria-controls="mantenimiento" aria-selected="false">Mantenimiento</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content mt-3" id="myTabContent">
+                                <div class="tab-pane fade show active" id="diadnostico" role="tabpanel" aria-labelledby="diadnostico-tab">
+                                        <ul>
+                                            <li class="nav-item">Se realizará un análisis actual de los diseños LAN y/o WLAN.</li> 
+                                            <li class="nav-item">Se presentará un informe indicando: </li>
+                                                <li class="nav nav-item  ml-3 my-1">- Estado de la red actual. </li> 
+                                                <li class="nav nav-item  ml-3 my-1">- Esquema de red actual con enlaces, puertos principales de conexión y direccionamiento. </li> 
+                                                <li class="nav nav-item  ml-3 my-1">- Estado físico de los dispositivos actuales, indicando tiempos de caducidad de garantía y de reemplazo de los mismos.</li>
+                                                <li class="nav nav-item  ml-3 my-1">- Propuesta de mejora en el diseño LAN/WAN.</li>
+                                                <li class="nav nav-item  ml-3 my-1">- Propuesta de mejora en la seguridad de los equipos.</li>
+                                                <li class="nav nav-item  ml-3 my-1">- Cronograma de mantenimientos que se debería tener en cuenta.</li>
+                                            <li class="nav-item">Propuesta de valor en al cual se indique:</li>
+                                                <li class="nav nav-item  ml-3 my-1">- Costo de las mejoras a implementar.</li>
+                                                <li class="nav nav-item  ml-3 my-1">- Cronograma de tiempos y actividades para el proyecto solicitado.</li>
+                                            <li class="nav-item">Presentación de documentación final posterior a la finalización del proyecto.</li>
+                                                <li class="nav nav-item  ml-3 my-1">- Esquema de la final con enlaces, puertos principales de conexión y direccionamiento.</li>
+                                                <li class="nav nav-item  ml-3 my-1">- Informe de mejoras implementadas.</li>
+                                                <li class="nav nav-item  ml-3 my-1">- Cronograma de mantenimientos. </li>                                    
+                                        </ul>
+                                </div>
+                                <div class="tab-pane fade" id="configuracion" role="tabpanel" aria-labelledby="configuracion-tab">
+                                        <li class="nav-item"> Configuración de herramientas de monitoreo de los servicios e infraestructura instalada.</li>
+                                        <li class="nav-item"> Configuración e implementación de hardware y software.</li>                                    
 
-                            </div>
-                            <div class="tab-pane fade" id="consultoria" role="tabpanel" aria-labelledby="consultoria-tab">
-                                <li> La consultoría puede ser bajo demanda o contrato de soporte con una duración mínima de 6 meses prorrogables automáticamente. </li>
-                            </div>
-                            <div class="tab-pane fade" id="mantenimiento" role="tabpanel" aria-labelledby="mantenimiento-tab">
-                                <li> Mantenimiento y gestión de garantías con proveedor del hardware.</li>
-                            </div>
-                        </div>                           
-                    </div>
-                    <div class="col-md-6">
-                        <h2 class="display-4">Consultoría en Infraestructura</h2>
-                        <p class="mt-5">A continuación se detallan los servicios relacionados con Infraestructura.</p>                     
-                        <ul class="nav nav-tabs" id="myTab" role="tablist">
-                            <li class="nav-item">
-                                <a class="nav-link active" id="analisis-tab" data-toggle="tab" href="#analisis" role="tab" aria-controls="analisis" aria-selected="true">Análisis</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="mantenimiento-infraestructura-tab" data-toggle="tab" href="#mantenimiento-infraestructura" role="tab" aria-controls="mantenimiento-infraestructura" aria-selected="false">Mantenimiento</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="auditoria-tab" data-toggle="tab" href="#auditoria" role="tab" aria-controls="auditoria" aria-selected="false">Auditoria</a>
-                            </li>                            
-                        </ul>
-                        <div class="tab-content mt-3" id="myTabContent">
-                            <div class="tab-pane fade show active" id="analisis" role="tabpanel" aria-labelledby="analisis-tab">
-                                    <ul>
-                                        <li> Análisis para la compra y configuración de equipo para usuario final, equipos con sistema operativo Windows </li> 
-                                        <li> Análisis para la compra y configuración de servidor de aplicativos Base de datos y NAS </li>                                                                              
-                                    </ul>
-                            </div>
-                            <div class="tab-pane fade" id="mantenimiento-infraestructura" role="tabpanel" aria-labelledby="mantenimiento-infraestructura-tab">
-                                  <ul>
-                                      <li>Mantenimiento de equipos de usuario final y servidor (soporte por un año a partir de la puesta en marcha de los equipos)</li>
-                                  </ul>
-                            </div>
-                            <div class="tab-pane fade" id="auditoria" role="tabpanel" aria-labelledby="auditoria-tab">
-                                <ul>
-                                    <li>Auditoria de H&S.</li>
-                                    <li class="nav nav-item  ml-3 my-1">- Inventario de equipos. </li>                                    
-                                    <li class="nav nav-item  ml-3 my-1">- Inventario de licencias. </li>                                    
-
-                                </ul>
-                            </div>                            
-                        </div>                                                   
-                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="consultoria" role="tabpanel" aria-labelledby="consultoria-tab">
+                                    <li class="nav-item"> La consultoría puede ser bajo demanda o contrato de soporte con una duración mínima de 6 meses prorrogables automáticamente. </li>
+                                </div>
+                                <div class="tab-pane fade" id="mantenimiento" role="tabpanel" aria-labelledby="mantenimiento-tab">
+                                    <li class="nav-item"> Mantenimiento y gestión de garantías con proveedor del hardware.</li>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>                          
                 </div>
-            
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="display-4">Consultoría en Infraestructura</h2>                                     
+                            <ul class="nav nav-tabs mt-5" id="myTab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="analisis-tab" data-toggle="tab" href="#analisis" role="tab" aria-controls="analisis" aria-selected="true">Análisis</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="mantenimiento-infraestructura-tab" data-toggle="tab" href="#mantenimiento-infraestructura" role="tab" aria-controls="mantenimiento-infraestructura" aria-selected="false">Mantenimiento</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="auditoria-tab" data-toggle="tab" href="#auditoria" role="tab" aria-controls="auditoria" aria-selected="false">Auditoria</a>
+                                </li>                            
+                            </ul>
+                            <div class="tab-content mt-3" id="myTabContent">
+                                <div class="tab-pane fade show active" id="analisis" role="tabpanel" aria-labelledby="analisis-tab">
+                                        <ul>
+                                            <li class="nav-item"> Análisis para la compra y configuración de equipo para usuario final, equipos con sistema operativo Windows </li> 
+                                            <li class="nav-item"> Análisis para la compra y configuración de servidor de aplicativos Base de datos y NAS </li>                                                                              
+                                        </ul>
+                                </div>
+                                <div class="tab-pane fade" id="mantenimiento-infraestructura" role="tabpanel" aria-labelledby="mantenimiento-infraestructura-tab">
+                                    <ul>
+                                        <li class="nav-item">Mantenimiento de equipos de usuario final y servidor (soporte por un año a partir de la puesta en marcha de los equipos)</li>
+                                    </ul>
+                                </div>
+                                <div class="tab-pane fade" id="auditoria" role="tabpanel" aria-labelledby="auditoria-tab">
+                                    <ul>
+                                        <li class="nav-item">Auditoria de H&S.</li>
+                                        <li class="nav nav-item  ml-3 my-1">- Inventario de equipos. </li>                                    
+                                        <li class="nav nav-item  ml-3 my-1">- Inventario de licencias. </li>                                    
+
+                                    </ul>
+                                </div>                            
+                            </div>
+                        </div>
+                    </div>                                                           
+                </div>
+            </div>            
         </div>
     </section>
 

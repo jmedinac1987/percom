@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
     //ScrollReveal plugin
-    window.sr = ScrollReveal({duration: 2000, reset: true});  
+    window.sr = ScrollReveal({duration: 2000, reset: false});  
 
     sr.reveal('.quienesSomos-content-left', {        
         origin: 'top'        
